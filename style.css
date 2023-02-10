@@ -1,0 +1,86 @@
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  background-color: #fdfd96;
+  color: #333;
+  text-align: center;
+}
+
+header {
+  padding: 50px 0;
+}
+
+header h1 {
+  font-size: 4em;
+  font-weight: bold;
+  margin: 0;
+  text-shadow: 2px 2px #ffb347;
+}
+
+header p {
+  font-size: 2em;
+  font-weight: lighter;
+  margin: 0;
+  text-shadow: 2px 2px #ffb347;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 50px 0;
+}
+
+section {
+  width: 60%;
+  margin: 50px;
+  text-align: left;
+}
+
+h2 {
+  font-size: 3em;
+  font-weight: bold;
+  margin: 0 0 50px 0;
+  text-shadow: 2px 2px #ffb347;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  font-size: 2em;
+  font-weight: lighter;
+  margin: 20px 0;
+  text-shadow: 2px 2px #ffb347;
+}
+
+.download-button {
+  background-color: #333;
+  color: #fdfd96;
+  font-size: 2em;
+  font-weight: bold;
+  padding: 20px 50px;
+  border-radius: 20px;
+  text-decoration: none;
+  box-shadow: 2px 2px #ffb347;
+  transition: all 0.2s ease-in-out;
+}
+
+.download-button:hover {
+  background-color: #fdfd96;
+  color: #333;
+  transform: translateY(-2px);
+  box-shadow: 4px 4px #ffb347;
+}
+
+footer {
+  background-color: #333;
+  color: #fdfd96;
+  padding: 20px 0;
+}
+
+footer p {
+  font-size: 1.5em;
+  margin: 0;
+}
